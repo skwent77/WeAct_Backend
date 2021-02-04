@@ -16,7 +16,7 @@ class Classes(db.Model):
     className = db.Column(db.String(20), nullable = True)
     subject = db.Column(db.String(20), nullable = True)
     tutorId = db.Column(db.Integer, db.ForeignKey('tutor.tutorId'))
-    students = db.relationship('Student',backref='classes')
+    students = db.relationship('Student',backref='classes', lazy=True)
     tutors = db.relationship('Lecture',backref='classes')
     lectures = db.relationship('Lecture',backref='classes')
 
@@ -25,7 +25,7 @@ class Lecture:
     classId = db.Column(db.Integer,db.ForeignKey('classes.classId'))
     title = db.Column(db.String(20),nullable = True)
     content = db.Column(db.String(500),nullable = True)
-    quizs = db.relationship('Quiz',backref='lectures')
+    quizs = db.relationship('Quiz',backref='lectures', uselist=False)
 
 class Quiz:
     quizId = db.Column(db.Integer, nullable = False)
