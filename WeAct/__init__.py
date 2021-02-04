@@ -14,5 +14,4 @@ app.config.from_object(config)
 db.init_app(app)
 migrate.init_app(app,db)
 
-#import WeAct.views
-
+from . import models
