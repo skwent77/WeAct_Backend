@@ -36,7 +36,7 @@ class Lecture(db.Model):
 class Quiz(db.Model):
     quizId = db.Column(db.Integer, primary_key=True)
     lectureId = db.Column(db.Integer, db.ForeignKey(
-        'lecture.lectureId'))
+        'lecture.lectureId', ondelete='CASCADE'))
     question = db.Column(db.String(30), nullable=True)
     answer = db.Column(db.String(30), nullable=True)
     a1 = db.Column(db.String(30), nullable=True)
