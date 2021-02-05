@@ -7,11 +7,14 @@ import config
 db = SQLAlchemy()
 migrate = Migrate()
 
-app=Flask(__name__)
-app.config.from_object(config)
 
-#ORM
-db.init_app(app)
-migrate.init_app(app,db)
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object(config)
 
-from . import models
+    # ORM
+    db.init_app(app)
+    migrate.init_app(app, db)
+    from . import models
+
+    return app
