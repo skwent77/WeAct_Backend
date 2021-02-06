@@ -5,18 +5,20 @@ Repository for SW Univ. Joint Hackathon
 
 <br>
 
-| 중앙대1                                                  | 카이스트                                                    | 서강대                                                    |                                                     |
+| 중앙대                                                   | 카이스트                                                    | 서강대                                                    |                                                     |
 | ----------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------- |
-| **신**재현[(skwent77@gmail.com)](https://github.com/wseungjin) | **민**거홍[(placidmoon1@gmail.com)](https://github.com/sohnjunior) | **이**주현[(lej970723@naver.com)](https://github.com/JuHyeon-Lee) | 
+| **신**재현[(skwent77@gmail.com)](https://github.com/wseungjin) | **민**거홍[(placidmoon1@gmail.com)](https://github.com/sohnjunior) | **이**은지[(lej970723@naver.com)](https://github.com/dleunji) | 
 
 <br>
 
 
-본인 역할
+## 본인 역할
 백엔드 클래스와 강의 관련 API 작성 및 DB 
 
-https://we-act.herokuapp.com/
+## API 문서
+https://docs.google.com/spreadsheets/d/1XF2gAcASUw-Cy-D-lW2QwSySnPMieJq0hnz8qQJjuK0/edit?usp=sharing
 
+## 활용한 오픈소스
 https://github.com/j1mmyson/question_generation 에서 제공하는 퀴즈 생성 API를 이용하여, 퀴즈를 생성했습니다.
 
 ## * 대회 특성
