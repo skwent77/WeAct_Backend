@@ -12,7 +12,9 @@ Repository for SW Univ. Joint Hackathon
 <br>
 
 
-역할
+본인 역할
+백엔드 클래스와 강의 관련 API 작성 및 DB 
+
 https://we-act.herokuapp.com/
 
 https://github.com/j1mmyson/question_generation 에서 제공하는 퀴즈 생성 API를 이용하여, 퀴즈를 생성했습니다.
