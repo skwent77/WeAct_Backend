@@ -1,7 +1,8 @@
 # WeAct_Backend
 Repository for SW Univ. Joint Hackathon
+https://swhackathon.com/ 소프트웨어 중심대학 해커톤 공식 
 
-백엔드 개발
+Team We-Act에 백엔드 개발자로 참여하여 WeAct 서비스 개발
 
 <br>
 
@@ -11,7 +12,9 @@ Repository for SW Univ. Joint Hackathon
 
 <br>
 
-
+## 프로젝트 설명
+저희는 해외 봉사 교육을 보다 편리하게 도와주는 웹앱을 개발하였습니다.
+코로나 사태를 겪으며 디지털 방식을 통한 교육이 더욱 중요해지고 있는데, 이러한 시스템이 열악한 봉사지역에서도 쓸 수 있는 플랫폼을 개발하였습니다.단순한 LMS 형식의 학습 관리 시스템이 아니라, “해외” “교육 봉사“에 초점을 맞추어 열악한 상황 속에서 봉사자와 수혜자 모두 편리함을 느끼도록 PWA(Progressive Web Application) 형식의 웹앱으로 제작되었습니다. 
 ## 본인 역할
 백엔드 클래스와 강의 관련 API 작성 및 DB 
 
